@@ -1,0 +1,17 @@
+{
+  "name": "trailmix",
+  "version": "1.0.0",
+  "description": "To run this:\r 1) go to \"chrome://extensions\"\r 2) turn on developer mode (top right corner of the page)\r 3) click \"load unpacked\"\r 4) choose the trailmix folder\r 5) should show up in your extensions list",
+  "main": "background.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jquery": "^3.6.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

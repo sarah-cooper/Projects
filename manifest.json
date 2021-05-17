@@ -1,0 +1,16 @@
+{
+    "name": "Trailmix",
+    "description": "Used to hide a user's trail on the internet",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+	"service_worker": "background.js"
+    },
+    "permissions":["storage","activeTab","history", "webRequest", "identity"],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "icons": {  "16": "images/extension_icon_16.png",
+                "48": "images/extension_icon_48.png",
+                "128": "images/extension_icon_128.png" }
+}
